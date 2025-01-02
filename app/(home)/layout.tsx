@@ -1,4 +1,4 @@
-import { Navbar } from "../_components";
+import { Footer, Navbar } from "../_components";
 
 export default function BaseLayout({
   children,
@@ -9,6 +9,7 @@ export default function BaseLayout({
     <div>
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 }
